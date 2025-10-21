@@ -11,11 +11,11 @@
 		/>
 	</head>
 	<body>
-		<header class="py-7">
+		<header class="pt-7">
 			<div class="container">
 				<nav class="nav">
 					<ul
-						class="nav__list flex justify-end items-center gap-3 uppercase font-bold text-black"
+						class="nav__list flex justify-end items-center gap-3 uppercase font-bold text-black text-[19px]"
 					>
 						<li
 							class="nav__list-item px-[12px] py-2 block bg-black text-white border-black border rounded-[100px] hover:bg-[#99FF91] ease-in-out transition-all delay-[50] cursor-pointer"
@@ -57,7 +57,42 @@
 				<hr class="text-black" />
 			</div>
 		</header>
-		<main></main>
+
+		<main>
+			<section class="promo">
+				<div class="container">
+					<div class="promo__wrapper flex justify-between px-8">
+						<div class="promo__wrapper-item text-black pt-28">
+							<h2 class="promo__subtitle text-2xl uppercase">
+								the search is over
+							</h2>
+							<h1
+								class="promo__title block mt-7 w-[500px] uppercase text-8xl font-bold"
+							>
+								we gave you a job
+							</h1>
+							<h2 class="promo__subtitle mt-2 text-[20px]">
+								On muncim.ro you don't look for work. We find it for you.
+							</h2>
+							<p class="promo__description block mt-5 w-[569px] text-[18px]">
+								You register with your complete details, tell us what you're
+								good at and what area you'd like to work in, and our team will
+								find you the best job, based on your requirements. Give us work!
+							</p>
+							<a
+								href="#"
+								class="promo__btn-act block mt-9 px-6 py-1 border uppercase rounded-[100px] w-[191px] text-[20px] font-bold text-center bg-[#99FF91] ease-in-out delay-[50] transition-all hover:bg-black hover:text-white"
+								>Discover &#8595;</a
+							>
+						</div>
+						<div class="promo__wrapper-item block w-[540px]">
+							<img src="/public/images/promo.png" alt="Job for you" />
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
 		<footer></footer>
 		<script type="module" src="/src/js/main.js"></script>
 	</body>
