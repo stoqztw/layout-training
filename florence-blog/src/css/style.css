@@ -1,8 +1,0 @@
-@import "tailwindcss";
-
-@import './base.css';
-
-@theme {
-	--background-color: #EFEFEF;
-	--text-color: #EA4809;
-}
